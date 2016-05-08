@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/mainLayout"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/itsmirror" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="63dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/email1"/>
+
+                <EditText
+                    android:id="@+id/userEmail_text"
+                    android:inputType="textEmailAddress"
+                    android:background="@drawable/textpart"
+                    android:layout_width="173dp"
+                    android:layout_height="40dp"
+
+                    android:singleLine="true" >
+                </EditText>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_weight="10"
+                    android:orientation="horizontal" >
+                    <ImageView
+                        android:layout_width="63dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/password"
+
+                        />
+
+                    <EditText
+                        android:id="@+id/userPass_text"
+                        android:layout_width="173dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/textpart"
+                        android:password="true"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/loginpress"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아직 회원이 아니시라면?"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+
+        />
+    <TextView
+        android:id="@+id/register_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:text="@string/stiename"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

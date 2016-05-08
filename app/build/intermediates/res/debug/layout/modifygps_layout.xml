@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="이곳에서 위치정보를 수정하실 수 있습니다."/>
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ci"/>
+        <AutoCompleteTextView
+            android:id="@+id/si_auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textpart"
+            android:completionThreshold="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gu"/>
+        <AutoCompleteTextView
+            android:id="@+id/gu_auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textpart"
+            android:completionThreshold="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dong"/>
+    <AutoCompleteTextView
+        android:id="@+id/dong_auto"
+        android:background="@drawable/textpart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"/>
+</LinearLayout>
+    <ImageButton
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/settingbutton"
+        android:text="수정!크리스탈!!"
+        android:id="@+id/transGps_btn"/>
+
+
+</LinearLayout><!-- From: file:/C:/Users/HyungJun/AndroidStudioProjects/StaggeredGridView-master/app/src/main/res/layout/modifygps_layout.xml -->

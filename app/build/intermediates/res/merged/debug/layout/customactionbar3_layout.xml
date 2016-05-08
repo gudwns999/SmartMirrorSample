@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/settingtitle" >
+
+    <TextView
+        android:id="@+id/title_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "위치정보"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imageButton12"
+        android:layout_toEndOf="@+id/imageButton12" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/returnbutton"
+        />
+
+</RelativeLayout>

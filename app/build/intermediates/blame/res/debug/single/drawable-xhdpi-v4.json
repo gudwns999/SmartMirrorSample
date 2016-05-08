@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\user\\Desktop\\pp\\StaggeredGridView-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_ptr_rotate.png",
+        "source": "C:\\Users\\user\\Desktop\\pp\\StaggeredGridView-master\\app\\src\\main\\res\\drawable-xhdpi\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\pp\\StaggeredGridView-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\user\\Desktop\\pp\\StaggeredGridView-master\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\pp\\StaggeredGridView-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\indicator_arrow.png",
+        "source": "C:\\Users\\user\\Desktop\\pp\\StaggeredGridView-master\\app\\src\\main\\res\\drawable-xhdpi\\indicator_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\pp\\StaggeredGridView-master(real)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_ptr_rotate.png",
+        "source": "C:\\Users\\user\\Desktop\\pp\\StaggeredGridView-master(real)\\app\\src\\main\\res\\drawable-xhdpi\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\pp\\StaggeredGridView-master(real)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\user\\Desktop\\pp\\StaggeredGridView-master(real)\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\pp\\StaggeredGridView-master(real)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_ptr_flip.png",
+        "source": "C:\\Users\\user\\Desktop\\pp\\StaggeredGridView-master(real)\\app\\src\\main\\res\\drawable-xhdpi\\default_ptr_flip.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\pp\\StaggeredGridView-master(real)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\indicator_arrow.png",
+        "source": "C:\\Users\\user\\Desktop\\pp\\StaggeredGridView-master(real)\\app\\src\\main\\res\\drawable-xhdpi\\indicator_arrow.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\pp\\StaggeredGridView-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_ptr_flip.png",
+        "source": "C:\\Users\\user\\Desktop\\pp\\StaggeredGridView-master\\app\\src\\main\\res\\drawable-xhdpi\\default_ptr_flip.png"
+    }
+]

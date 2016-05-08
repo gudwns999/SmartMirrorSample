@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/locationpage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/linearLayout2">
+
+        <TextView android:id="@+id/contentsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addressEdit"
+        android:gravity="center"
+        android:hint="클릭하면 자동설정"
+        android:background="@drawable/locationtext"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="250dp"
+        />
+
+</RelativeLayout><!-- From: file:/C:/Users/HyungJun/AndroidStudioProjects/StaggeredGridView-master/app/src/main/res/layout/setgps_layout.xml -->
